@@ -22,14 +22,16 @@ print(args.data_file)
 
 fh = open(args.data_file)
 
-print("the file handle is", fh)
+#print("the file handle is", fh)
 
 lines =0
 words = 0
 chars = 0
 
 for line in fh:
-	print(line)
+	#print(line)
+	lines += 1
+print(lines)
 #-------------------------------------------------------------------------------
 # our code for analyzing the data
 #-------------------------------------------------------------------------------
